@@ -13,3 +13,4 @@ This repo contains some of those scripts I wrote. These aren't the neatest and m
 
 [pagelayout_style_changer.py](https://github.com/NH1922/Salesforce-related-python-scripts/blob/master/pagelayout_style_changer.py) - Sets styles of sections based on the set criteria to Two Columns Left To right for all page layouts in a folder.
 
+[required_fields.py](https://github.com/NH1922/Salesforce-related-python-scripts/blob/master/required_fields.py) - Finds all required fields at page layout levels for objects across all their page layouts. 
