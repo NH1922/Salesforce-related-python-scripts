@@ -20,3 +20,5 @@ This repo contains some of those scripts I wrote. These aren't the neatest and m
 [FLS.py](https://github.com/NH1922/Salesforce-related-python-scripts/blob/master/FLS.py) Extracts FLS of a particular object for a profile. 
 
 [FLSProfile.py](https://github.com/NH1922/Salesforce-related-python-scripts/blob/master/FLSProfile.py) Generate CSV files contaning Field Level Security for multiple fields accross multiple objects
+
+[disable_validations.py](https://github.com/NH1922/Salesforce-related-python-scripts/blob/master/disable_validations.py) Disables specific validation rules specified in a text file for a retrieved object. 
