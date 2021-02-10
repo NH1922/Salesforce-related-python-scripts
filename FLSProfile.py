@@ -23,9 +23,10 @@ def get_fls(file,profile):
     # profile_fls = {}
     for field_permission in root.xpath('.//default:fieldPermissions', namespaces=ns):
         access = {}
-        readable = bool(field_permission.find('.//default:readable', namespaces=ns).text)
-        editable = bool(field_permission.find('.//default:editable', namespaces=ns).text)
+        readable = field_permission.find('.//default:readable', namespaces=ns).text.lower()=='true'
+        editable = field_permission.find('.//default:editable', namespaces=ns).text.lower() == 'true'
         field = field_permission.find('.//default:field', namespaces=ns)
+        print(field.text, '->', readable, '-', editable)
         access['Object'], access['Field'] = field.text.split('.')
         if readable and editable:   
             access['Access']= 'Edit'
